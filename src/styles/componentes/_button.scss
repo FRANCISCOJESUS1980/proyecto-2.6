@@ -1,3 +1,10 @@
 button {
   @extend %primaryButton;
 }
+
+@media (max-width: 450px) {
+  button {
+    font-size: small;
+    flex-grow: 1;
+  }
+}

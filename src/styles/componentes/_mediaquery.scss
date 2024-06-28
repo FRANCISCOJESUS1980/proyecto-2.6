@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
   .cabecera {
     flex-direction: column;
+
     align-items: center;
   }
 
@@ -9,9 +10,13 @@
   }
 }
 @media (max-width: 450px) {
-  .cabecera {
-    flex-direction: column;
-    align-items: center;
-    max-height: 25%;
+  .cabecera button {
+    .imagenheader {
+      max-height: 50px;
+    }
+  }
+  .nombre {
+    font-size: 0, 7em;
+    color: bisque;
   }
 }

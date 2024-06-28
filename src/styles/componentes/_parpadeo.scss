@@ -12,3 +12,9 @@
     opacity: 0;
   }
 }
+@media (max-width: 450px) {
+  .parpadeo {
+    animation: parpadeo 1s infinite;
+    font-size: 1.1em;
+  }
+}
