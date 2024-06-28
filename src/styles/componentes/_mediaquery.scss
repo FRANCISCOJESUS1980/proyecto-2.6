@@ -8,3 +8,10 @@
     margin: 5px 0;
   }
 }
+@media (max-width: 450px) {
+  .cabecera {
+    flex-direction: column;
+    align-items: center;
+    max-height: 25%;
+  }
+}
